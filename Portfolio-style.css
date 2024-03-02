@@ -1,0 +1,105 @@
+body{
+    background-color: black;
+    font-family:  Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-image: url('./bg-image-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-color: #141b3b;
+    background-blend-mode: hard-light;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 70px;
+}
+
+header  .nav{
+    color: #888;
+    list-style: none;
+    display: flex;
+    gap:10px;
+    margin:0px;
+    padding:0px;
+}
+
+.container {
+    padding:20px 70px;
+   
+}
+
+.content {
+    color:#ffffff;
+    
+    width:50%;
+    
+    padding: 10px 20px;
+}
+
+.glow-box {
+    background-color: rgba(255, 255, 255, .1); 
+    border-radius: 10px;
+    box-shadow: 0 1px 6px 0px #fff;
+}
+
+.tagline{
+    color:#ccc;
+}
+
+.posts{
+    color:#ccc;
+    margin-top:100px;
+    padding:10px 28px;
+}
+
+.post-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #36393f;
+    padding-bottom: 5px;
+    margin-bottom:10px;
+}
+
+.posts .post-row:last-child{
+    border-bottom:none;
+}
+
+.post-row .post-col2 {
+    color:#8698ae;
+    font-family: monospace;
+    font-size: .8rem;
+}
+
+.portfolio-name{
+    color:#fff
+}
+
+
+/* LEGACY CODE - TO CREATE UL NAVBAR WITH FLOAT */
+    /* .header  .nav{
+        color: white;
+        list-style: none;
+        margin:0px;
+        padding:0px;
+    }
+
+    .header  .nav li {
+        float:left;
+        margin-right: 10px;
+    }
+    .header  .nav li:last-child {
+        margin-right: auto;
+    }
+
+    .header  .nav::after{
+        content: '';
+        display: inline-block;
+        clear:both;
+    } */
+/* END LEGACY CODE - TO CREATE UL NAVBAR WITH FLOAT */
+
